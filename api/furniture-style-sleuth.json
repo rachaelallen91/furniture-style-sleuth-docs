@@ -1,0 +1,54 @@
+{
+    "furniture": [
+        {
+            "id": 1,
+            "name": "Eames Lounge Chair",
+            "style_id": 1,
+            "material": "Plywood, leather"
+        },
+        {
+            "id": 2,
+            "name": "Reclaimed Wood Coffee Table",
+            "style_id": 4,
+            "material": "Reclaimed wood, iron pipes, wire"
+        },
+        {
+            "id": 3,
+            "name": "Wishbone Chair",
+            "style_id": 3,
+            "material": "Wood, Danish paper cord"
+        },
+        {
+            "id": 4,
+            "name": "Tufted Armchair",
+            "style_id": 2,
+            "material": "Velvet, mahogany"
+        }
+    ],
+    "styles": [
+        {
+            "id": 1,
+            "name": "Midcentury Modern",
+            "era": "1945-1970",
+            "description": "Clean lines, minimalist, focus on function"
+        },
+        {
+            "id": 2,
+            "name": "Victorian",
+            "era": "1837-1901",
+            "description": "Ornate details, rich fabrics, dark wood"
+        },
+        {
+            "id": 3,
+            "name": "Scandinavian",
+            "era": "1950-now",
+            "description": "Simple, functional, light wood"
+        },
+        {
+            "id": 4,
+            "name": "Industrial",
+            "era": "1990-now",
+            "description": "Raw materials, utilitarian design, exposed elements"
+        }
+    ]
+}
