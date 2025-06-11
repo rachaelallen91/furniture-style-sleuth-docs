@@ -4,7 +4,6 @@ Welcome to the documentation for the **Furniture Style Sleuth API** — a lightw
 
 This API powers the Furniture Style Sleuth app, which allows users to upload a photo of a furniture item and learn its associated design style. With full CRUD support for two simple resources, it's easy to integrate into interior design tools, furniture discovery apps, or retail product filters.
 
----
 
 ## What this API does
 
@@ -13,7 +12,7 @@ This API powers the Furniture Style Sleuth app, which allows users to upload a p
 - Add, update, and remove furniture and style data
 - Build search and filter features (e.g., "Show me all Industrial style items")
 
----
+
 
 ## Primary use cases
 
@@ -22,7 +21,6 @@ This API powers the Furniture Style Sleuth app, which allows users to upload a p
 - Developers building visual search tools for furniture
 - Personal or educational tools for learning furniture history
 
----
 
 ## Available resources
 
@@ -36,8 +34,6 @@ The API includes two resources:
 ### Styles
 - Represents historical or contemporary design styles
 - Fields: `id`, `name`, `era`, `description`
-
----
 
 ## Endpoints (Standard REST Methods)
 
@@ -54,7 +50,6 @@ The API includes two resources:
 | PUT    | `/styles/{id}`               | Update a style definition          |
 | DELETE | `/styles/{id}`               | Delete a style                     |
 
----
 
 ## Status codes
 
@@ -66,13 +61,11 @@ The API uses standard HTTP status codes, including:
 - `400 Bad Request` – Validation or formatting issue
 - `404 Not Found` – Resource not found
 
----
 
 ## Authentication
 
 Authentication is **not required** for this version of the API. It is open for educational and prototyping purposes.
 
----
 
 ## Next Steps
 
