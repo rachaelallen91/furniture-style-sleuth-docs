@@ -20,3 +20,5 @@ The `furniture` resource represents individual furniture items that can be categ
   "style_id": 4,
   "material": "Reclaimed wood, iron pipes, wire"
 }
+
+```

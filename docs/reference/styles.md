@@ -21,3 +21,5 @@ The `styles` resource represents design styles associated with furniture, includ
   "era": "1945-1970",
   "description": "Clean lines, minimalist, focus on function"
 }
+
+```
