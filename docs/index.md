@@ -76,6 +76,7 @@ Authentication is **not required** for this version of the API. It is open for e
 
 ## Next Steps
 
-- [View the topic list](./topic-list.md)
-- [Explore reference docs](./reference/furniture.md)
-- [Try a tutorial](./tutorials/find-by-style.md)
+- [Furniture Resource Overview](./reference/furniture.md)
+- [Styles Resource Overview](./reference/styles.md)
+- [GET /furniture Endpoint](./reference/endpoints/get-furniture.md)
+- [GET /styles Endpoint](./reference/endpoints/get-styles.md)
