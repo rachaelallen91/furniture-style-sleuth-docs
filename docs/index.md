@@ -4,6 +4,8 @@ Welcome to the documentation for the **Furniture Style Sleuth API** — a lightw
 
 This API powers the Furniture Style Sleuth app, which allows users to upload a photo of a furniture item and learn its associated design style. With full CRUD support for two simple resources, it's easy to integrate into interior design tools, furniture discovery apps, or retail product filters.
 
+Not sure where to begin? Start with the [Quick Start Guide](quickstart.md), or browse all available endpoints in the [API Overview](topic-list.md).
+
 
 ## What this API does
 
@@ -11,8 +13,6 @@ This API powers the Furniture Style Sleuth app, which allows users to upload a p
 - Look up style definitions by era and description
 - Add, update, and remove furniture and style data
 - Build search and filter features (e.g., "Show me all Industrial style items")
-
-
 
 ## Primary use cases
 
@@ -35,21 +35,27 @@ The API includes two resources:
 - Represents historical or contemporary design styles
 - Fields: `id`, `name`, `era`, `description`
 
-## Endpoints (Standard REST Methods)
+## Endpoints
 
-| Method | Endpoint                     | Description                        |
-|--------|------------------------------|------------------------------------|
-| GET    | `/furniture`                 | List all furniture items           |
-| GET    | `/furniture/{id}`            | Get a specific item by ID          |
-| POST   | `/furniture`                 | Add a new furniture item           |
-| PUT    | `/furniture/{id}`            | Replace a furniture item           |
-| DELETE | `/furniture/{id}`            | Delete a furniture item            |
-| GET    | `/styles`                    | List all furniture styles          |
-| GET    | `/styles/{id}`               | Get a specific style by ID         |
-| POST   | `/styles`                    | Add a new style                    |
-| PUT    | `/styles/{id}`               | Update a style definition          |
-| DELETE | `/styles/{id}`               | Delete a style                     |
+### Furniture Endpoints
 
+| Method | Endpoint            | Description                |
+|--------|---------------------|----------------------------|
+| GET    | `/furniture`        | List all furniture items   |
+| GET    | `/furniture/{id}`   | Get a furniture item by ID |
+| POST   | `/furniture`        | Add a furniture item       |
+| PUT    | `/furniture/{id}`   | Replace a furniture item   |
+| DELETE | `/furniture/{id}`   | Delete a furniture item    |
+
+### Style Endpoints
+
+| Method | Endpoint          | Description              |
+|--------|-------------------|--------------------------|
+| GET    | `/styles`         | List all styles          |
+| GET    | `/styles/{id}`    | Get a style by ID        |
+| POST   | `/styles`         | Add a new style          |
+| PUT    | `/styles/{id}`    | Update a style           |
+| DELETE | `/styles/{id}`    | Delete a style           |
 
 ## Status codes
 
@@ -66,10 +72,11 @@ The API uses standard HTTP status codes, including:
 
 Authentication is **not required** for this version of the API. It is open for educational and prototyping purposes.
 
+## Explore the Docs
 
-## Next Steps
-
-- [Furniture Resource Overview](./reference/furniture.md)
-- [Styles Resource Overview](./reference/styles.md)
-- [GET /furniture Endpoint](./reference/endpoints/get-furniture.md)
-- [GET /styles Endpoint](./reference/endpoints/get-styles.md)
+- [Quick Start Guide](quickstart.md)
+- [Tutorial: Finding Furniture by Style](tutorials/tutorial-find-furniture-by-style.md)
+- [Furniture Overview](reference/furniture.md)
+- [Styles Overview](reference/styles.md)
+- [All Endpoints](topic-list.md)
+- [Error Codes](errors.md)
