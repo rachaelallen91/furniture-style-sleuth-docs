@@ -3,27 +3,20 @@
 Welcome to the Furniture Style Sleuth API documentation. Below is a list of topics to help you explore and use the API effectively.
 
 ## Getting Started
-- [Quick Start Guide](quickstart.md)
 - [Overview](index.md)
+- [Quick Start Guide](quickstart.md)
 
 ## Tutorials
 - [Finding Furniture by Style](tutorials/tutorial-find-furniture-by-style.md)
+- [Adding a New Furniture Item](tutorials/tutorial-add-furniture.md)
+- [Updating a Style](tutorials/tutorial-update-style.md)
 
-## Furniture Endpoints
-- [GET /furniture](reference/endpoints/get-furniture.md)
-- [GET /furniture/{id}](reference/endpoints/get-furniture-id.md)
-- [POST /furniture](reference/endpoints/post-furniture.md)
-- [PUT /furniture](reference/endpoints/put-furniture.md)
-- [PATCH /furniture](reference/endpoints/patch-furniture.md)
-- [DELETE /furniture/{id}](reference/endpoints/delete-furniture.md)
-
-## Style Endpoints
-- [GET /styles](reference/endpoints/get-styles.md)
-- [GET /styles/{id}](reference/endpoints/get-style-id.md)
-- [POST /styles](reference/endpoints/post-style.md)
-- [PUT /styles](reference/endpoints/put-style.md)
-- [PATCH /styles](reference/endpoints/patch-style.md)
-- [DELETE /styles/{id}](reference/endpoints/delete-style.md)
+## API Reference
+- [GET Endpoints](reference/endpoints/get-endpoints.md)
+- [POST Endpoints](reference/endpoints/post-endpoints.md)
+- [PUT Endpoints](reference/endpoints/put-endpoints.md)
+- [PATCH Endpoints](reference/endpoints/patch-endpoints.md)
+- [DELETE Endpoints](reference/endpoints/delete-endpoints.md)
 
 ## Data Models & Errors
 - [Furniture Data Model](reference/furniture.md)
