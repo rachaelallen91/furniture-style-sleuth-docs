@@ -3,48 +3,51 @@ remote_theme: just-the-docs/just-the-docs
 plugins:
   - jekyll-remote-theme
 
-# Base URL for GitHub Pages deployment
 baseurl: "/furniture-style-sleuth-docs"
 
-# Just the Docs configuration
 just_the_docs:
   logo: "/assets/images/logo.png"
   aux_links:
     GitHub Repo: https://github.com/rachaelallen91/furniture-style-sleuth-docs
+  nav:
+    - title: Overview
+      children:
+        - title: Home
+          url: index.md
+        - title: Quickstart
+          url: quickstart.md
 
-# ✅ Move nav OUTSIDE of just_the_docs
-nav:
-  - title: Home
-    url: index.md
+    - title: Tutorials
+      children:
+        - title: Before You Begin
+          url: tutorials/before-you-begin.md
+        - title: Start the Service
+          url: tutorials/start-the-service.md
+        - title: Add Furniture
+          url: tutorials/tutorial-add-furniture.md
+        - title: Find by Style
+          url: tutorials/tutorial-find-furniture-by-style.md
+        - title: Update Style
+          url: tutorials/tutorial-update-style.md
 
-  - title: Quickstart
-    url: quickstart.md
+    - title: API Reference
+      children:
+        - title: Base URL
+          url: API%20Reference/base-url.md
 
-  - title: Tutorials
-    children:
-      - title: Before You Begin
-        url: tutorials/before-you-begin.md
-      - title: Start the Service
-        url: tutorials/start-the-service.md
-      - title: Add Furniture
-        url: tutorials/tutorial-add-furniture.md
-      - title: Find by Style
-        url: tutorials/tutorial-find-furniture-by-style.md
-      - title: Update Style
-        url: tutorials/tutorial-update-style.md
+        - title: Furniture resource
+          children:
+            - title: Data Model
+              url: API%20Reference/furniture.md
+            - title: GET, POST, PUT, PATCH, DELETE
+              url: topic-list.md
 
-  - title: API Reference
-    children:
-      - title: Base URL
-        url: API%20Reference/base-url.md
-      - title: Furniture Model
-        url: API%20Reference/furniture.md
-      - title: Style Model
-        url: API%20Reference/styles.md
+        - title: Style resource
+          children:
+            - title: Data Model
+              url: API%20Reference/styles.md
+            - title: GET, POST, PUT, PATCH, DELETE
+              url: topic-list.md
 
-  - title: Endpoints
-    url: topic-list.md
-
-  - title: Errors
-    url: errors.md
-
+    - title: Errors
+      url: errors.md
