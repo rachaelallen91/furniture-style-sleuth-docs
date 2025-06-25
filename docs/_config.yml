@@ -1,4 +1,4 @@
-theme: jekyll-theme-cayman
+theme: just-the-docs
 title: Furniture Style Sleuth API
 description: Lightweight REST API to identify and organize furniture by design style
 markdown: kramdown
