@@ -2,24 +2,18 @@
 
 title: Furniture Style Sleuth API Docs
 remote_theme: just-the-docs/just-the-docs
-plugins: jekyll-remote-theme
+plugins:
+  - jekyll-remote-theme
 
 
 # Base URL if deploying under a subpath
 baseurl: "/furniture-style-sleuth-docs"
 
 
-# Enable the navigation sidebar
 just_the_docs:
-  logo: "/assets/images/logo.png"  # Optional
+  logo: "/assets/images/logo.png"
   aux_links:
     GitHub Repo: https://github.com/rachaelallen91/furniture-style-sleuth-docs
-
-# Sidebar navigation structure
-collections:
-  docs:
-    output: true
-    permalink: /:path/
 
 nav:
   - title: Home
@@ -44,18 +38,14 @@ nav:
   - title: API Reference
     children:
       - title: Base URL
-        url: API Reference/base-url.md
+        url: API%20Reference/base-url.md
       - title: Furniture Model
-        url: API Reference/furniture.md
+        url: API%20Reference/furniture.md
       - title: Style Model
-        url: API Reference/styles.md
+        url: API%20Reference/styles.md
 
   - title: Endpoints
-    children:
-      - title: GET, POST, PUT, PATCH, DELETE
-        url: topic-list.md
+    url: topic-list.md
 
   - title: Errors
     url: errors.md
-
-
