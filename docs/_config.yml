@@ -39,15 +39,32 @@ just_the_docs:
           children:
             - title: Data Model
               url: API%20Reference/furniture.md
-            - title: GET, POST, PUT, PATCH, DELETE
-              url: topic-list.md
+            - title: GET /furniture
+              url: API%20Reference/endpoints/get-endpoints.md
+            - title: POST /furniture
+              url: API%20Reference/endpoints/post-endpoints.md
+            - title: PUT /furniture
+              url: API%20Reference/endpoints/put-endpoints.md
+            - title: PATCH /furniture
+              url: API%20Reference/endpoints/patch-endpoints.md
+            - title: DELETE /furniture/{id}
+              url: API%20Reference/endpoints/delete-endpoints.md
 
         - title: Style resource
           children:
             - title: Data Model
               url: API%20Reference/styles.md
-            - title: GET, POST, PUT, PATCH, DELETE
-              url: topic-list.md
+            - title: GET /styles
+              url: API%20Reference/endpoints/get-endpoints.md
+            - title: POST /styles
+              url: API%20Reference/endpoints/post-endpoints.md
+            - title: PUT /styles
+              url: API%20Reference/endpoints/put-endpoints.md
+            - title: PATCH /styles
+              url: API%20Reference/endpoints/patch-endpoints.md
+            - title: DELETE /styles/{id}
+              url: API%20Reference/endpoints/delete-endpoints.md
 
     - title: Errors
       url: errors.md
+
