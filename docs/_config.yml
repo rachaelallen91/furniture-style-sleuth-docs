@@ -9,62 +9,63 @@ just_the_docs:
   logo: "/assets/images/logo.png"
   aux_links:
     GitHub Repo: https://github.com/rachaelallen91/furniture-style-sleuth-docs
-  nav:
-    - title: Overview
-      children:
-        - title: Home
-          url: index.md
-        - title: Quickstart
-          url: quickstart.md
 
-    - title: Tutorials
-      children:
-        - title: Before You Begin
-          url: tutorials/before-you-begin.md
-        - title: Start the Service
-          url: tutorials/start-the-service.md
-        - title: Add Furniture
-          url: tutorials/tutorial-add-furniture.md
-        - title: Find by Style
-          url: tutorials/tutorial-find-furniture-by-style.md
-        - title: Update Style
-          url: tutorials/tutorial-update-style.md
+# 🟢 Move nav to root level (not inside just_the_docs)
+nav:
+  - title: Overview
+    children:
+      - title: Home
+        url: index.md
+      - title: Quickstart
+        url: quickstart.md
 
-    - title: API Reference
-      children:
-        - title: Base URL
-          url: API%20Reference/base-url.md
+  - title: Tutorials
+    children:
+      - title: Before You Begin
+        url: tutorials/before-you-begin.md
+      - title: Start the Service
+        url: tutorials/start-the-service.md
+      - title: Add Furniture
+        url: tutorials/tutorial-add-furniture.md
+      - title: Find by Style
+        url: tutorials/tutorial-find-furniture-by-style.md
+      - title: Update Style
+        url: tutorials/tutorial-update-style.md
 
-        - title: Furniture resource
-          children:
-            - title: Data Model
-              url: API%20Reference/furniture.md
-            - title: GET /furniture
-              url: API%20Reference/endpoints/get-endpoints.md
-            - title: POST /furniture
-              url: API%20Reference/endpoints/post-endpoints.md
-            - title: PUT /furniture
-              url: API%20Reference/endpoints/put-endpoints.md
-            - title: PATCH /furniture
-              url: API%20Reference/endpoints/patch-endpoints.md
-            - title: DELETE /furniture/{id}
-              url: API%20Reference/endpoints/delete-endpoints.md
+  - title: API Reference
+    children:
+      - title: Base URL
+        url: API%20Reference/base-url.md
 
-        - title: Style resource
-          children:
-            - title: Data Model
-              url: API%20Reference/styles.md
-            - title: GET /styles
-              url: API%20Reference/endpoints/get-endpoints.md
-            - title: POST /styles
-              url: API%20Reference/endpoints/post-endpoints.md
-            - title: PUT /styles
-              url: API%20Reference/endpoints/put-endpoints.md
-            - title: PATCH /styles
-              url: API%20Reference/endpoints/patch-endpoints.md
-            - title: DELETE /styles/{id}
-              url: API%20Reference/endpoints/delete-endpoints.md
+      - title: Furniture resource
+        children:
+          - title: Data Model
+            url: API%20Reference/furniture.md
+          - title: GET /furniture
+            url: API%20Reference/endpoints/get-endpoints.md
+          - title: POST /furniture
+            url: API%20Reference/endpoints/post-endpoints.md
+          - title: PUT /furniture
+            url: API%20Reference/endpoints/put-endpoints.md
+          - title: PATCH /furniture
+            url: API%20Reference/endpoints/patch-endpoints.md
+          - title: DELETE /furniture/{id}
+            url: API%20Reference/endpoints/delete-endpoints.md
 
-    - title: Errors
-      url: errors.md
+      - title: Style resource
+        children:
+          - title: Data Model
+            url: API%20Reference/styles.md
+          - title: GET /styles
+            url: API%20Reference/endpoints/get-endpoints.md
+          - title: POST /styles
+            url: API%20Reference/endpoints/post-endpoints.md
+          - title: PUT /styles
+            url: API%20Reference/endpoints/put-endpoints.md
+          - title: PATCH /styles
+            url: API%20Reference/endpoints/patch-endpoints.md
+          - title: DELETE /styles/{id}
+            url: API%20Reference/endpoints/delete-endpoints.md
 
+  - title: Errors
+    url: errors.md
