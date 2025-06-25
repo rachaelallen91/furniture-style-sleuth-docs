@@ -1,7 +1,8 @@
 # _config.yml
 
 title: Furniture Style Sleuth API Docs
-theme: just-the-docs
+remote_theme: just-the-docs/just-the-docs
+
 
 # Base URL if deploying under a subpath
 baseurl: "" 
