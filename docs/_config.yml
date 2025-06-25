@@ -10,7 +10,7 @@ just_the_docs:
   aux_links:
     GitHub Repo: https://github.com/rachaelallen91/furniture-style-sleuth-docs
 
-# 🟢 Move nav to root level (not inside just_the_docs)
+# NAVIGATION MUST BE TOP-LEVEL
 nav:
   - title: Overview
     children:
@@ -37,35 +37,26 @@ nav:
       - title: Base URL
         url: API%20Reference/base-url.md
 
-      - title: Furniture resource
+      - title: Furniture Resource
         children:
           - title: Data Model
             url: API%20Reference/furniture.md
-          - title: GET /furniture
+          - title: GET
             url: API%20Reference/endpoints/get-endpoints.md
-          - title: POST /furniture
+          - title: POST
             url: API%20Reference/endpoints/post-endpoints.md
-          - title: PUT /furniture
+          - title: PUT
             url: API%20Reference/endpoints/put-endpoints.md
-          - title: PATCH /furniture
+          - title: PATCH
             url: API%20Reference/endpoints/patch-endpoints.md
-          - title: DELETE /furniture/{id}
+          - title: DELETE
             url: API%20Reference/endpoints/delete-endpoints.md
 
-      - title: Style resource
+      - title: Style Resource
         children:
           - title: Data Model
             url: API%20Reference/styles.md
-          - title: GET /styles
-            url: API%20Reference/endpoints/get-endpoints.md
-          - title: POST /styles
-            url: API%20Reference/endpoints/post-endpoints.md
-          - title: PUT /styles
-            url: API%20Reference/endpoints/put-endpoints.md
-          - title: PATCH /styles
-            url: API%20Reference/endpoints/patch-endpoints.md
-          - title: DELETE /styles/{id}
-            url: API%20Reference/endpoints/delete-endpoints.md
+          # Add style endpoints here if needed
 
   - title: Errors
     url: errors.md
