@@ -1,51 +1,47 @@
-# _config.yml
-
 title: Furniture Style Sleuth API Docs
 remote_theme: just-the-docs/just-the-docs
 plugins:
   - jekyll-remote-theme
 
-
-# Base URL if deploying under a subpath
+# Base URL for GitHub Pages deployment (must match repo name if using /docs)
 baseurl: "/furniture-style-sleuth-docs"
 
-
+# Just the Docs configuration
 just_the_docs:
   logo: "/assets/images/logo.png"
   aux_links:
     GitHub Repo: https://github.com/rachaelallen91/furniture-style-sleuth-docs
+  nav:
+    - title: Home
+      url: index.md
 
-nav:
-  - title: Home
-    url: index.md
+    - title: Quickstart
+      url: quickstart.md
 
-  - title: Quickstart
-    url: quickstart.md
+    - title: Tutorials
+      children:
+        - title: Before You Begin
+          url: Tutorials/before-you-begin.md
+        - title: Start the Service
+          url: Tutorials/start-the-service.md
+        - title: Add Furniture
+          url: Tutorials/tutorial-add-furniture.md
+        - title: Find by Style
+          url: Tutorials/tutorial-find-furniture-by-style.md
+        - title: Update Style
+          url: Tutorials/tutorial-update-style.md
 
-  - title: Tutorials
-    children:
-      - title: Before You Begin
-        url: Tutorials/before-you-begin.md
-      - title: Start the Service
-        url: Tutorials/start-the-service.md
-      - title: Add Furniture
-        url: Tutorials/tutorial-add-furniture.md
-      - title: Find by Style
-        url: Tutorials/tutorial-find-furniture-by-style.md
-      - title: Update Style
-        url: Tutorials/tutorial-update-style.md
+    - title: API Reference
+      children:
+        - title: Base URL
+          url: API%20Reference/base-url.md
+        - title: Furniture Model
+          url: API%20Reference/furniture.md
+        - title: Style Model
+          url: API%20Reference/styles.md
 
-  - title: API Reference
-    children:
-      - title: Base URL
-        url: API%20Reference/base-url.md
-      - title: Furniture Model
-        url: API%20Reference/furniture.md
-      - title: Style Model
-        url: API%20Reference/styles.md
+    - title: Endpoints
+      url: topic-list.md
 
-  - title: Endpoints
-    url: topic-list.md
-
-  - title: Errors
-    url: errors.md
+    - title: Errors
+      url: errors.md
