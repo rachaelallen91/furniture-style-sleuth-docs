@@ -1,9 +1,8 @@
 ---
-layout: default
-title: POST
-nav_order: 2
+title: POST Endpoint
 parent: Furniture Resource
 grand_parent: API Reference
+nav_order: 2
 ---
 
 

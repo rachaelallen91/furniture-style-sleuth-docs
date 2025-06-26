@@ -1,9 +1,10 @@
 
 ---
-layout: default
-title: Home
-nav_order: 1
+title: Quickstart
+parent: Overview
+nav_order: 2
 ---
+
 
 
 # Furniture Style Sleuth API

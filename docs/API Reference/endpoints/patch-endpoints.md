@@ -1,9 +1,8 @@
 ---
-layout: default
-title: PATCH
-nav_order: 4
+title: PATCH Endpoint
 parent: Furniture Resource
 grand_parent: API Reference
+nav_order: 4
 ---
 
 

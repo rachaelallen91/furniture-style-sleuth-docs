@@ -1,9 +1,9 @@
 ---
-layout: default
 title: Quickstart
-nav_order: 2
 parent: Overview
+nav_order: 2
 ---
+
 
 
 # Quick Start Guide

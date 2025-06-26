@@ -1,10 +1,9 @@
 
 ---
-layout: default
-title: Style Model
-nav_order: 2
-parent: Style Resource
-grand_parent: API Reference
+title: Styles
+parent: API Reference
+grand_parent: Overview
+nav_order: 3
 ---
 
 

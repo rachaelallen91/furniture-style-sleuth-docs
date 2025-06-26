@@ -1,10 +1,8 @@
-
 ---
-layout: default
-title: DELETE
-nav_order: 5
+title: DELETE Endpoint
 parent: Furniture Resource
 grand_parent: API Reference
+nav_order: 5
 ---
 
 # Reference: DELETE Endpoints

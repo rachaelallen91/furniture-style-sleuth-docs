@@ -1,9 +1,8 @@
 ---
-layout: default
-title: Furniture Model
+title: Furniture
+parent: API Reference
+grand_parent: Overview
 nav_order: 2
-parent: Furniture Resource
-grand_parent: API Reference
 ---
 
 

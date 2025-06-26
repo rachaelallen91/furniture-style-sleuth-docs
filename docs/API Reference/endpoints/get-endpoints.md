@@ -1,9 +1,8 @@
 ---
-layout: default
-title: GET
-nav_order: 1
+title: GET Endpoint
 parent: Furniture Resource
 grand_parent: API Reference
+nav_order: 1
 ---
 
 

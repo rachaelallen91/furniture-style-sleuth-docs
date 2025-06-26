@@ -1,10 +1,9 @@
 ---
-layout: default
 title: Update Style
-nav_order: 5
 parent: Tutorials
+grand_parent: Overview
+nav_order: 5
 ---
-
 
 # Tutorial: Updating a Style Description
 

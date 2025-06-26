@@ -1,9 +1,10 @@
 ---
-layout: default
 title: Before You Begin
-nav_order: 1
 parent: Tutorials
+grand_parent: Overview
+nav_order: 1
 ---
+
 
 
 # Before You Begin
