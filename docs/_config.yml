@@ -1,3 +1,15 @@
+title: Furniture Style Sleuth API Docs
+remote_theme: just-the-docs/just-the-docs
+plugins:
+  - jekyll-remote-theme
+
+baseurl: "/furniture-style-sleuth-docs"
+
+just_the_docs:
+  logo: "/assets/images/logo.png"
+  aux_links:
+    GitHub Repo: https://github.com/rachaelallen91/furniture-style-sleuth-docs
+
 nav:
   - title: Overview
     children:
