@@ -1,3 +1,11 @@
+---
+layout: default
+title: Quickstart
+nav_order: 2
+parent: Overview
+---
+
+
 # Quick Start Guide
 
 Get up and running with the *Furniture Style Sleuth API* in just a few steps.

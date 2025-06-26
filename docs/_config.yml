@@ -10,52 +10,6 @@ just_the_docs:
   aux_links:
     GitHub Repo: https://github.com/rachaelallen91/furniture-style-sleuth-docs
 
-nav:
-  - title: Overview
-    children:
-      - title: Home
-        url: index.md
-      - title: Quickstart
-        url: quickstart.md
-
-  - title: Tutorials
-    children:
-      - title: Before You Begin
-        url: Tutorials/before-you-begin.md
-      - title: Start the Service
-        url: Tutorials/start-the-service.md
-      - title: Add Furniture
-        url: Tutorials/tutorial-add-furniture.md
-      - title: Find by Style
-        url: Tutorials/tutorial-find-furniture-by-style.md
-      - title: Update Style
-        url: Tutorials/tutorial-update-style.md
-
-  - title: API Reference
-    children:
-      - title: Base URL
-        url: API%20Reference/base-url.md
-
-      - title: Furniture Resource
-        children:
-          - title: Data Model
-            url: API%20Reference/furniture.md
-          - title: GET
-            url: API%20Reference/endpoints/get-endpoints.md
-          - title: POST
-            url: API%20Reference/endpoints/post-endpoints.md
-          - title: PUT
-            url: API%20Reference/endpoints/put-endpoints.md
-          - title: PATCH
-            url: API%20Reference/endpoints/patch-endpoints.md
-          - title: DELETE
-            url: API%20Reference/endpoints/delete-endpoints.md
-
-      - title: Style Resource
-        children:
-          - title: Data Model
-            url: API%20Reference/styles.md
-
-  - title: Errors
-    url: errors.md
-
+collections:
+  docs:
+    output: true

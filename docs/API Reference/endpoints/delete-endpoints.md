@@ -1,3 +1,12 @@
+
+---
+layout: default
+title: DELETE
+nav_order: 5
+parent: Furniture Resource
+grand_parent: API Reference
+---
+
 # Reference: DELETE Endpoints
 
 This page documents the DELETE methods available in the Furniture Style Sleuth API. These endpoints allow you to remove furniture items or styles from the database.

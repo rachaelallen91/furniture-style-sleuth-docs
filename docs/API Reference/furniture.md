@@ -1,3 +1,12 @@
+---
+layout: default
+title: Furniture Model
+nav_order: 2
+parent: Furniture Resource
+grand_parent: API Reference
+---
+
+
 # Furniture resource
 
 The `furniture` resource represents individual furniture items that can be categorized by design style.
