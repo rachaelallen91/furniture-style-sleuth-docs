@@ -55,3 +55,7 @@ nav:
         children:
           - title: Data Model
             url: API%20Reference/styles.md
+
+  - title: Errors
+    url: errors.md
+
