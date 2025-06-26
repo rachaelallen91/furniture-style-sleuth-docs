@@ -1,16 +1,3 @@
-title: Furniture Style Sleuth API Docs
-remote_theme: just-the-docs/just-the-docs
-plugins:
-  - jekyll-remote-theme
-
-baseurl: "/furniture-style-sleuth-docs"
-
-just_the_docs:
-  logo: "/assets/images/logo.png"
-  aux_links:
-    GitHub Repo: https://github.com/rachaelallen91/furniture-style-sleuth-docs
-
-# NAVIGATION MUST BE TOP-LEVEL
 nav:
   - title: Overview
     children:
@@ -22,15 +9,15 @@ nav:
   - title: Tutorials
     children:
       - title: Before You Begin
-        url: tutorials/before-you-begin.md
+        url: Tutorials/before-you-begin.md
       - title: Start the Service
-        url: tutorials/start-the-service.md
+        url: Tutorials/start-the-service.md
       - title: Add Furniture
-        url: tutorials/tutorial-add-furniture.md
+        url: Tutorials/tutorial-add-furniture.md
       - title: Find by Style
-        url: tutorials/tutorial-find-furniture-by-style.md
+        url: Tutorials/tutorial-find-furniture-by-style.md
       - title: Update Style
-        url: tutorials/tutorial-update-style.md
+        url: Tutorials/tutorial-update-style.md
 
   - title: API Reference
     children:
@@ -56,7 +43,3 @@ nav:
         children:
           - title: Data Model
             url: API%20Reference/styles.md
-          # Add style endpoints here if needed
-
-  - title: Errors
-    url: errors.md
