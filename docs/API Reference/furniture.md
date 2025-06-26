@@ -1,10 +1,3 @@
----
-title: Furniture
-parent: API Reference
-grand_parent: Overview
-nav_order: 2
----
-
 
 # Furniture resource
 

@@ -1,10 +1,3 @@
----
-title: Add Furniture
-parent: Tutorials
-grand_parent: Overview
-nav_order: 3
----
-
 
 # Tutorial: Adding a New Furniture Item
 

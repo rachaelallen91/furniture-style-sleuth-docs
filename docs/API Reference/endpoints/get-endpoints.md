@@ -1,11 +1,3 @@
----
-title: GET Endpoint
-parent: Furniture Resource
-grand_parent: API Reference
-nav_order: 1
----
-
-
 
 # Reference: GET Endpoints
 

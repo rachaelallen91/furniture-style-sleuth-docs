@@ -1,9 +1,3 @@
----
-title: Errors
-parent: Overview
-nav_order: 3
----
-
 
 # Error Codes
 

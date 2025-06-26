@@ -1,10 +1,3 @@
----
-title: PATCH Endpoint
-parent: Furniture Resource
-grand_parent: API Reference
-nav_order: 4
----
-
 
 # Reference: PATCH Endpoints
 

@@ -1,11 +1,3 @@
----
-title: Start The Service
-parent: Tutorials
-grand_parent: Overview
-nav_order: 2
----
-
-
 
 # Start the Furniture Style Sleuth Service
 

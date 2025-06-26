@@ -1,10 +1,3 @@
----
-title: POST Endpoint
-parent: Furniture Resource
-grand_parent: API Reference
-nav_order: 2
----
-
 
 # Reference: POST Endpoints
 

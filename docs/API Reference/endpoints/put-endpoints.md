@@ -1,10 +1,3 @@
----
-title: PUT Endpoint
-parent: Furniture Resource
-grand_parent: API Reference
-nav_order: 3
----
-
 
 # Reference: PUT Endpoints
 

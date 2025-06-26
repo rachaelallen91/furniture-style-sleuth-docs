@@ -1,9 +1,3 @@
----
-title: Update Style
-parent: Tutorials
-grand_parent: Overview
-nav_order: 5
----
 
 # Tutorial: Updating a Style Description
 

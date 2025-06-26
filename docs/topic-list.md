@@ -1,8 +1,3 @@
----
-title: Endpoint Summary
-parent: Overview
-nav_order: 4
----
 
 
 # API Documentation Topics

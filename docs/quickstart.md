@@ -1,10 +1,3 @@
----
-title: Quickstart
-parent: Overview
-nav_order: 2
----
-
-
 
 # Quick Start Guide
 

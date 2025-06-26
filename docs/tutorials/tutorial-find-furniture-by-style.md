@@ -1,10 +1,3 @@
----
-title: Find Furniture By Style
-parent: Tutorials
-grand_parent: Overview
-nav_order: 4
----
-
 
 # Tutorial: Finding Furniture by Style
 
