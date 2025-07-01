@@ -5,8 +5,6 @@ parent: Endpoints
 grand_parent: API Reference
 ---
 
-
-
 # Reference: PATCH Endpoints
 
 This page documents the PATCH methods available in the Furniture Style Sleuth API. These endpoints allow you to update specific fields of existing resources without replacing the entire object.
