@@ -13,22 +13,22 @@ Welcome to the Furniture Style Sleuth API documentation. Below is a list of topi
 
 ## Tutorials
 
-- [Before You Begin](before-you-begin.md)
-- [Start the Service](start-the-service.md)
-- [Finding Furniture by Style](tutorial-find-furniture-by-style.md)
-- [Adding a New Furniture Item](tutorial-add-furniture.md)
-- [Updating a Style](tutorial-update-style.md)
+- [Before You Begin](/tutorials/before-you-begin)
+- [Start the Service](/tutorials/start-the-service)
+- [Finding Furniture by Style](/tutorials/tutorial-find-furniture-by-style)
+- [Adding a New Furniture Item](/tutorials/tutorial-add-furniture)
+- [Updating a Style](/tutorials/tutorial-update-style)
 
 ## API Reference
 
-- [Base URL](base-url.md)
-- [GET Endpoints](get-endpoints.md)
-- [POST Endpoints](post-endpoints.md)
-- [PUT Endpoints](put-endpoints.md)
-- [PATCH Endpoints](patch-endpoints.md)
-- [DELETE Endpoints](delete-endpoints.md)
+- [Base URL](/api-reference/base-url)
+- [GET Endpoints](/api-reference/endpoints/get-endpoints)
+- [POST Endpoints](/api-reference/endpoints/post-endpoints)
+- [PUT Endpoints](/api-reference/endpoints/put-endpoints)
+- [PATCH Endpoints](/api-reference/endpoints/patch-endpoints)
+- [DELETE Endpoints](/api-reference/endpoints/delete-endpoints)
 
 ## Data Models & Errors
-- [Furniture Data Model](furniture.md)
-- [Style Data Model](styles.md)
-- [Error Codes](errors.md)
+- [Furniture Data Model](/api-reference/furniture)
+- [Style Data Model](/api-reference/styles)
+- [Error Codes](/errors)
