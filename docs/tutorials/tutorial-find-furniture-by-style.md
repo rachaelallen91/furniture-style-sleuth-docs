@@ -1,4 +1,3 @@
-
 ---
 title: Find by Style
 nav_order: 3

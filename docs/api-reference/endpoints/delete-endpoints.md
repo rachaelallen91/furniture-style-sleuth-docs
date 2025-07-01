@@ -1,10 +1,10 @@
-
 ---
 title: DELETE
 nav_order: 4
 parent: Endpoints
 grand_parent: API Reference
 ---
+
 
 
 # Reference: DELETE Endpoints

@@ -5,6 +5,7 @@ nav_order: 1
 ---
 
 
+
 # Quick Start Guide
 
 Get up and running with the *Furniture Style Sleuth API* in just a few steps.

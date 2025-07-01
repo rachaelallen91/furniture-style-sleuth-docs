@@ -5,7 +5,6 @@ parent: Endpoints
 grand_parent: API Reference
 ---
 
-
 # Reference: GET Endpoints
 
 This page documents the GET methods available in the Furniture Style Sleuth API. These endpoints allow you to retrieve furniture items and styles.

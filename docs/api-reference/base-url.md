@@ -7,6 +7,7 @@ has_children: true
 
 
 
+
 # Base URL
 
 The base URL for the Furniture Style Sleuth API is typically: http://localhost:3000

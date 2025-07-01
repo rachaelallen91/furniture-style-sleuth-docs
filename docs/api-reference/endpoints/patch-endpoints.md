@@ -1,10 +1,10 @@
-
 ---
 title: PATCH
 nav_order: 5
 parent: Endpoints
 grand_parent: API Reference
 ---
+
 
 
 # Reference: PATCH Endpoints

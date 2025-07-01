@@ -1,4 +1,3 @@
-
 ---
 title: Add Furniture
 nav_order: 2

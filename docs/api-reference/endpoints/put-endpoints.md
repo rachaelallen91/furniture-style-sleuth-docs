@@ -1,7 +1,6 @@
-
 ---
 title: PUT
-nav_order: 2
+nav_order: 3
 parent: Endpoints
 grand_parent: API Reference
 ---
