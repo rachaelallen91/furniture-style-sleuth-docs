@@ -1,4 +1,3 @@
-
 ---
 title: GET
 nav_order: 1
