@@ -69,4 +69,4 @@ This request returns a list of furniture items in the selected style.
 
 - [Try a tutorial](tutorials/tutorial-find-furniture-by-style.md)
 - [Explore all endpoints](topic-list.md)
-- [View the reference for styles](reference/styles.md)
+- [View the reference for styles](api-reference/styles.md)
