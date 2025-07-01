@@ -7,7 +7,7 @@ grand_parent: API Reference
 
 
 
-# Reference: DELETE Endpoints
+# Reference: DELETE dndpoints
 
 This page documents the DELETE methods available in the Furniture Style Sleuth API. These endpoints allow you to remove furniture items or styles from the database.
 
@@ -17,11 +17,11 @@ Deletes a furniture item by its ID.
 
 This operation permanently removes the furniture item from the database.
 
-**Request Method:** `DELETE`
+**Request method:** `DELETE`
 
 **Endpoint:** `/furniture/{id}`
 
-### Request Body
+### Request body
 None
 
 ### Parameters
@@ -30,13 +30,13 @@ None
 |-----------|---------|----------------------------------------------|
 | `id`      | integer | **Required.** The ID of the furniture item to delete. |
 
-### Example Request
+### Example request
 
 ```http
 DELETE /furniture/2
 ```
 
-### Status Codes
+### Status codes
 
 `204 No Content` – Furniture item deleted successfully
 
@@ -51,11 +51,11 @@ Deletes a furniture style by its ID.
 Use with caution: this operation may affect furniture items that reference this style.
 :::
 
-**Request Method:** `DELETE`
+**Request method:** `DELETE`
 
 **Endpoint:** `/styles/{id}`
 
-### Request Body
+### Request body
 None
 
 ### Parameters
@@ -64,13 +64,13 @@ None
 |-----------|---------|----------------------------------------|
 | `id`      | integer | **Required.** The ID of the style to delete. |
 
-### Example Request
+### Example request
 
 ```http
 DELETE /styles/4
 ```
 
-### Status Codes
+### Status codes
 
 `204 No Content` – Style deleted successfully
 

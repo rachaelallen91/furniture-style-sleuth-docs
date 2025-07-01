@@ -5,15 +5,15 @@ parent: Tutorials
 ---
 
 
-# Tutorial: Updating a Style Description
+# Tutorial: Updating a style description
 
 This tutorial shows how to update part of a style record using the `PATCH /styles` endpoint.
 
-## Step 1: Pick a Style
+## Step 1: Pick a style
 
 Find the ID of the style you’d like to update. For example, use `1` for Midcentury Modern.
 
-## Step 2: Send the PATCH Request
+## Step 2: Send the PATCH request
 
 You only need to include the fields you want to update. For example:
 
@@ -27,7 +27,7 @@ You only need to include the fields you want to update. For example:
 Send this to the `/styles` endpoint using `PATCH`.
 
 
-## Step 3: Confirm the Update
+## Step 3: Confirm the update
 
 A successful request returns:
 

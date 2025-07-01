@@ -5,13 +5,13 @@ parent: Tutorials
 ---
 
 
-# Tutorial: Finding Furniture by Style
+# Tutorial: Finding furniture by style
 
 This tutorial walks you through how to retrieve a list of furniture items based on a specific style using the Furniture Style Sleuth API.
 
 ## Scenario
 
-You're designing a Midcentury Modern-themed room and want to find all furniture items that match that style. You’ll use the API to filter furniture by its associated style ID.
+You are designing a Midcentury Modern-themed room and want to find all furniture items that match that style. You’ll use the API to filter furniture by its associated style ID.
 
 ## Prerequisites
 
@@ -20,14 +20,14 @@ You're designing a Midcentury Modern-themed room and want to find all furniture 
 - Access to the Furniture Style Sleuth API
 - A tool for making API requests (like Postman, curl, or your browser)
 
-## Step 1: Look Up the Style ID
+## Step 1: Look up the style ID
 
 To filter furniture by style, you first need to know the style’s ID. Use the following endpoint to find it:
 
 ```http
 GET /styles
 ```
-### Example Response
+### Example response
 
 ```
 [
@@ -45,9 +45,9 @@ GET /styles
   }
 ]
 ```
-From the response above, we see that the ID for **Midcentury Modern** is `1`.
+From the preceding response, the ID for **Midcentury Modern** is `1`.
 
-## Step 2: Filter Furniture by Style
+## Step 2: Filter Furniture by style
 
 Use the following endpoint with a query parameter to find furniture items in that style:
 
@@ -55,7 +55,7 @@ Use the following endpoint with a query parameter to find furniture items in tha
 GET /furniture?style_id=1
 ```
 
-### Example Response
+### Example response
 
 ```
 [

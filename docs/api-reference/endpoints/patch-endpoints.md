@@ -5,7 +5,7 @@ parent: Endpoints
 grand_parent: API Reference
 ---
 
-# Reference: PATCH Endpoints
+# Reference: PATCH endpoints
 
 This page documents the PATCH methods available in the Furniture Style Sleuth API. These endpoints allow you to update specific fields of existing resources without replacing the entire object.
 
@@ -19,7 +19,7 @@ Unlike `PUT`, which replaces the entire item, `PATCH` lets you send only the fie
 
 **Endpoint:** `/furniture`
 
-### Request Body Example
+### Request body example
 
 ```json
 {
@@ -50,7 +50,7 @@ Unlike `PUT`, which replaces the entire style object, `PATCH` lets you send only
 
 **Endpoint:** `/styles`
 
-### Request Body Example
+### Request body example
 
 ```json
 {

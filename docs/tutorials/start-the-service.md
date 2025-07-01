@@ -5,11 +5,11 @@ parent: Tutorials
 ---
 
 
-# Start the Furniture Style Sleuth Service
+# Start the Furniture Style Sleuth service
 
 After setting up your environment, follow these steps to start the local server and test that it’s running correctly.
 
-## Step 1: Start the Service
+## Step 1: Start the service
 
 1. Clone your fork and check out a test branch:
 
@@ -39,7 +39,7 @@ http://localhost:3000/furniture
 http://localhost:3000/styles
 ```
 
-## Step 2: Test the Service
+## Step 2: Test the service
 
 Make a test call:
 

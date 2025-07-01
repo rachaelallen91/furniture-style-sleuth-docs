@@ -5,7 +5,7 @@ has_children: true
 ---
 
 
-# Before You Begin
+# Before you begin
 
 Before you can run any tutorials for the **Furniture Style Sleuth API**, you need to set up your development environment.
 

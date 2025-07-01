@@ -5,11 +5,11 @@ parent: Tutorials
 ---
 
 
-# Tutorial: Adding a New Furniture Item
+# Tutorial: Adding a new furniture item
 
 This tutorial walks you through how to add a new furniture item using the `POST /furniture` endpoint.
 
-## Step 1: Understand the Required Fields
+## Step 1: Understand the required fields
 
 To create a new item, you’ll need the following fields:
 
@@ -17,7 +17,7 @@ To create a new item, you’ll need the following fields:
 - `style_id`: The associated style ID
 - `material`: A comma-separated string of materials
 
-## Step 2: Send the Request
+## Step 2: Send the request
 
 Use this JSON in your `POST` request to `/furniture`:
 
@@ -29,7 +29,7 @@ Use this JSON in your `POST` request to `/furniture`:
 }
 ```
 
-## Step 3: Check the Response
+## Step 3: Check the response
 
 A successful request returns a `201 Created` status and the new item:
 
@@ -42,7 +42,7 @@ A successful request returns a `201 Created` status and the new item:
 }
 ```
 
-## Step 4: Verify the Addition
+## Step 4: Verify the addition
 
 Use `GET /furniture` to confirm the item appears in the list.
 

@@ -5,7 +5,7 @@ parent: Endpoints
 grand_parent: API Reference
 ---
 
-# Reference: POST Endpoints
+# Reference: POST endpoints
 
 This page documents the POST methods available in the Furniture Style Sleuth API. These endpoints allow you to add new furniture items or styles to the database.
 
@@ -19,7 +19,7 @@ All fields must be provided and must reference a valid existing style.
 
 **Endpoint:** `/furniture`
 
-### Request Body Example
+### Request body example
 
 ```json
 {
@@ -37,7 +37,7 @@ All fields must be provided and must reference a valid existing style.
 | `style_id`  | integer  | **Required.** The ID of the style associated with the item.  |
 | `material`  | string   | **Required.** The materials used in the item.                |
 
-### Status Codes
+### Status codes
 
 - `201 Created` – Furniture item successfully added  
 - `400 Bad Request` – Invalid data or missing required fields  
@@ -54,7 +54,7 @@ All fields are required and must follow formatting conventions.
 
 **Endpoint:** `/styles`
 
-### Request Body Example
+### Request body example
 
 ```json
 {
@@ -72,7 +72,7 @@ All fields are required and must follow formatting conventions.
 | `era`         | string   | **Required.** The time period associated with the style.       |
 | `description` | string   | **Required.** A brief description of the style characteristics.|
 
-### Status Codes
+### Status codes
 
 - `201 Created` – Style successfully added  
 - `400 Bad Request` – Invalid or missing fields  

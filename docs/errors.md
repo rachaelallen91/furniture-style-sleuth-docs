@@ -8,7 +8,7 @@ nav_order: 2
 
 This page describes the standard HTTP status codes and error messages returned by the Furniture Style Sleuth API. Understanding these responses will help you troubleshoot issues during development.
 
-## Common Status Codes
+## Common status codes
 
 | Status Code | Meaning                | Description                                                                 |
 |-------------|------------------------|-----------------------------------------------------------------------------|
@@ -20,7 +20,7 @@ This page describes the standard HTTP status codes and error messages returned b
 | `409 Conflict` | Duplicate Entry     | The request conflicts with an existing resource (e.g., duplicate ID).      |
 | `500 Internal Server Error` | Server Issue | An unexpected error occurred on the server.                          |
 
-## Error Format
+## Error format
 
 Error responses are returned in a consistent JSON structure:
 
@@ -46,7 +46,7 @@ GET /furniture/999
 }
 ```
 
-## Tips for Debugging
+## Tips for debugging
 
 If you encounter unexpected behavior when using the API, try the following:
 

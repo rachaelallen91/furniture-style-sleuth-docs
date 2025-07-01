@@ -5,7 +5,7 @@ parent: Endpoints
 grand_parent: API Reference
 ---
 
-# Reference: GET Endpoints
+# Reference: GET endpoints
 
 This page documents the GET methods available in the Furniture Style Sleuth API. These endpoints allow you to retrieve furniture items and styles.
 
@@ -17,7 +17,7 @@ Returns a specific furniture item by its ID.
 
 **Endpoint:** `/furniture/{id}`
 
-### Request Body
+### Request body
 None
 
 ### Parameters
@@ -26,13 +26,13 @@ None
 |-----------|---------|-----------------------------------------------|
 | `id`      | integer | **Required.** The ID of the furniture to retrieve. |
 
-### Example Request
+### Example request
 
 ```http
 GET /furniture/1
 ```
 
-### Example Response
+### Example response
 
 ```
 {
@@ -43,7 +43,7 @@ GET /furniture/1
 }
 ```
 
-### Status Codes
+### Status codes
 
 * `200 OK` – Style found
 
@@ -61,12 +61,13 @@ Returns a list of all furniture items stored in the database.
 ### Parameters
 None
 
-### Example Request
+### Example request
+
 ```http
 GET /furniture
 ```
 
-### Example Response
+### Example response
 
 ```
 [
@@ -85,7 +86,7 @@ GET /furniture
 ]
 ```
 
-### Status Codes
+### Status codes
 
 * `200 OK` – Furniture list returned successfully
 
@@ -100,7 +101,7 @@ Returns a specific style by its ID.
 
 **Endpoint:** `/styles/{id}`
 
-### Request Body
+### Request body
 None
 
 ### Parameters
@@ -109,13 +110,13 @@ None
 |-----------|---------|----------------------------------------|
 | `id`      | integer | **Required.** The ID of the style to fetch. |
 
-### Example Request
+### Example request
 
 ```http
 GET /styles/1
 ```
 
-### Example Response
+### Example response
 
 ```
 {
@@ -126,7 +127,7 @@ GET /styles/1
 }
 ```
 
-### Status Codes
+### Status codes
 
 * `200 OK` – Style found
 
@@ -137,23 +138,23 @@ GET /styles/1
 
 Returns a list of all furniture styles.
 
-**Request Method:** `GET`
+**Request method:** `GET`
 
 **Endpoint:** `/styles`
 
-### Request Body
+### Request body
 None
 
 ### Parameters
 None
 
-### Example Request
+### Example request
 
 ```http
 GET /styles
 ```
 
-### Example Response
+### Example response
 
 ``` 
 [
@@ -172,7 +173,7 @@ GET /styles
 ]
 ```
 
-### Status Codes
+### Status codes
 
 * `200 OK` – Styles returned successfully
 

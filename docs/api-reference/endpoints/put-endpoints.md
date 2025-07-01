@@ -5,7 +5,7 @@ parent: Endpoints
 grand_parent: API Reference
 ---
 
-# Reference: PUT Endpoints
+# Reference: PUT endpoints
 
 This page documents the PUT methods available in the Furniture Style Sleuth API. These endpoints allow you to replace entire records for furniture items or styles.
 
@@ -15,11 +15,11 @@ Replaces an existing furniture item with a new version. You must provide the ful
 
 Use this operation when you want to overwrite the entire furniture entry.
 
-**Request Method:** `PUT`
+**Request method:** `PUT`
 
 **Endpoint:** `/furniture`
 
-### Request Body Example
+### Request body example
 
 ```json
 {
@@ -39,7 +39,7 @@ Use this operation when you want to overwrite the entire furniture entry.
 | `style_id`  | integer  | **Required.** The style ID that links to an existing style.                 |
 | `material`  | string   | **Required.** The materials used to construct the furniture item.                   |
 
-### Status Codes
+### Status codes
 
 - `200 OK` – Furniture item updated successfully  
 - `400 Bad Request` – Invalid or incomplete data  
@@ -55,7 +55,7 @@ Use this when you want to fully overwrite the existing style.
 
 **Endpoint:** `/styles`
 
-### Request Body Example
+### Request body example
 
 ```json
 {
@@ -75,7 +75,7 @@ Use this when you want to fully overwrite the existing style.
 | `era`         | string   | **Required.** The updated time period for the style.                     |
 | `description` | string   | **Required.** A description of the style's characteristics.    |
 
-### Status Codes
+### Status codes
 - `200 OK` – Style updated successfully  
 - `400 Bad Request` – Invalid or incomplete data  
 - `404 Not Found` – No style found with that ID  
