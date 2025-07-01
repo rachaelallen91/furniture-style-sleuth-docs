@@ -1,4 +1,12 @@
 
+---
+title: PUT
+nav_order: 2
+parent: Endpoints
+grand_parent: API Reference
+---
+
+
 # Reference: PUT Endpoints
 
 This page documents the PUT methods available in the Furniture Style Sleuth API. These endpoints allow you to replace entire records for furniture items or styles.

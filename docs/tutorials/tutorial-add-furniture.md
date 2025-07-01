@@ -1,4 +1,11 @@
 
+---
+title: Add Furniture
+nav_order: 2
+parent: Tutorials
+---
+
+
 # Tutorial: Adding a New Furniture Item
 
 This tutorial walks you through how to add a new furniture item using the `POST /furniture` endpoint.

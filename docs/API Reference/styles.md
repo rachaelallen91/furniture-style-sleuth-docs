@@ -1,4 +1,11 @@
 
+---
+title: Styles
+nav_order: 2
+parent: API Reference
+---
+
+
 # Styles resource
 
 The `styles` resource represents design styles associated with furniture, including their name, historical era, and characteristics.

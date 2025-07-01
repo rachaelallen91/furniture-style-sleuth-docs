@@ -1,4 +1,10 @@
 
+---
+title: Home
+nav_order: 0
+---
+
+
 # Furniture Style Sleuth API
 
 Welcome to the documentation for the **Furniture Style Sleuth API** — a lightweight RESTful service that helps developers identify furniture styles and build style-based furniture search features into their apps.

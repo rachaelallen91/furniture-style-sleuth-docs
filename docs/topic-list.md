@@ -1,5 +1,11 @@
 
 
+---
+title: Topic List
+nav_order: 2
+---
+
+
 # API Documentation Topics
 
 Welcome to the Furniture Style Sleuth API documentation. Below is a list of topics to help you explore and use the API effectively.

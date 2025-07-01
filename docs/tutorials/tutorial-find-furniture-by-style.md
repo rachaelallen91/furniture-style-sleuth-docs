@@ -1,4 +1,11 @@
 
+---
+title: Find by Style
+nav_order: 3
+parent: Tutorials
+---
+
+
 # Tutorial: Finding Furniture by Style
 
 This tutorial walks you through how to retrieve a list of furniture items based on a specific style using the Furniture Style Sleuth API.

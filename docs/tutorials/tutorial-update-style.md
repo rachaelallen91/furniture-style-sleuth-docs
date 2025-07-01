@@ -1,4 +1,11 @@
 
+---
+title: Update Style
+nav_order: 4
+parent: Tutorials
+---
+
+
 # Tutorial: Updating a Style Description
 
 This tutorial shows how to update part of a style record using the `PATCH /styles` endpoint.

@@ -1,4 +1,12 @@
 
+---
+title: POST
+nav_order: 3
+parent: Endpoints
+grand_parent: API Reference
+---
+
+
 # Reference: POST Endpoints
 
 This page documents the POST methods available in the Furniture Style Sleuth API. These endpoints allow you to add new furniture items or styles to the database.

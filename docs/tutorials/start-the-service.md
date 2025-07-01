@@ -1,4 +1,11 @@
 
+---
+title: Start the Service
+nav_order: 1
+parent: Tutorials
+---
+
+
 # Start the Furniture Style Sleuth Service
 
 After setting up your environment, follow these steps to start the local server and test that it’s running correctly.

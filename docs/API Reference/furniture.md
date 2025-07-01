@@ -1,4 +1,11 @@
 
+---
+title: Furniture
+nav_order: 1
+parent: API Reference
+---
+
+
 # Furniture resource
 
 The `furniture` resource represents individual furniture items that can be categorized by design style.
