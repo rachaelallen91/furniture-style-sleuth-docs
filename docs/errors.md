@@ -3,6 +3,7 @@ title: Error Codes
 nav_order: 3
 ---
 
+
 # Error Codes
 
 This page describes the standard HTTP status codes and error messages returned by the Furniture Style Sleuth API. Understanding these responses will help you troubleshoot issues during development.
