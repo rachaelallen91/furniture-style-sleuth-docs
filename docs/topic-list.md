@@ -13,22 +13,22 @@ Welcome to the Furniture Style Sleuth API documentation. Below is a list of topi
 
 ## Tutorials
 
-- [Before You Begin](/tutorials/before-you-begin)
-- [Start the Service](/tutorials/start-the-service)
-- [Finding Furniture by Style](/tutorials/tutorial-find-furniture-by-style)
-- [Adding a New Furniture Item](/tutorials/tutorial-add-furniture)
-- [Updating a Style](/tutorials/tutorial-update-style)
+- [Before You Begin](/tutorials/before-you-begin.md)
+- [Start the Service](/tutorials/start-the-service.md)
+- [Finding Furniture by Style](/tutorials/tutorial-find-furniture-by-style.md)
+- [Adding a New Furniture Item](/tutorials/tutorial-add-furniture.md)
+- [Updating a Style](/tutorials/tutorial-update-style.md)
 
 ## API Reference
 
-- [Base URL](/api-reference/base-url)
-- [GET Endpoints](/api-reference/endpoints/get-endpoints)
-- [POST Endpoints](/api-reference/endpoints/post-endpoints)
-- [PUT Endpoints](/api-reference/endpoints/put-endpoints)
-- [PATCH Endpoints](/api-reference/endpoints/patch-endpoints)
-- [DELETE Endpoints](/api-reference/endpoints/delete-endpoints)
+- [Base URL](/api-reference/base-url.md)
+- [GET Endpoints](/api-reference/endpoints/get-endpoints.md)
+- [POST Endpoints](/api-reference/endpoints/post-endpoints.md)
+- [PUT Endpoints](/api-reference/endpoints/put-endpoints.md)
+- [PATCH Endpoints](/api-reference/endpoints/patch-endpoints.md)
+- [DELETE Endpoints](/api-reference/endpoints/delete-endpoints.md)
 
 ## Data Models & Errors
-- [Furniture Data Model](/api-reference/furniture)
-- [Style Data Model](/api-reference/styles)
-- [Error Codes](/errors)
+- [Furniture Data Model](/api-reference/furniture.md)
+- [Style Data Model](/api-reference/styles.md)
+- [Error Codes](/errors.md)
